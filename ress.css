@@ -1,0 +1,193 @@
+
+/*=====================
+ @Media Desktop Screen 
+=======================*/
+
+@media  (min-width:1025px){
+    html{
+        font-size: 55%;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+/*=====================
+ @Media Laptop Screen 
+=======================*/
+
+@media  (max-width:1024px){
+    html{
+        font-size: 50%;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/*=====================
+ @Media Tablet Screen 
+=======================*/
+
+@media  (max-width:992px){
+    html{
+        font-size: 45%;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .headerInfo {
+        width: 95rem;
+    }
+}
+
+
+
+/*=====================
+ @Media Mobile Screen 
+=======================*/
+@media  (max-width:768px){
+    html{
+        font-size: 35%;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    .sIcon i:last-child{
+    display: flex;
+    margin-left: 4rem;
+    font-size: 3rem;
+    }
+    .sIcon i:last-child:hover{
+        border: none;
+    }
+
+    .headerInfo {
+        width: 90rem;
+    }
+
+    .headerInfo h3 {
+        width: 50rem;
+        text-align: center;
+        margin: auto;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        line-height: 2;
+    }
+
+    .headerInfo h1{
+        line-height: 1.5;
+        margin-bottom: 5rem;
+
+    }
+    button{
+        transform: scale(2);
+    }
+    .logo span {
+        font-size:6rem ;
+    }
+    .sIcon i{
+        transform: scale(1.5);
+        margin-left: 4rem;
+    }
+    .sIcon i:last-child{
+        
+        margin-left: 5rem;
+    }
+
+    button.btn{
+        transform: scale(1);
+    }
+
+
+    .brandsWrapper {
+        
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .brandsInfo {
+        margin-bottom: 3rem;
+      }
+
+
+      .whatWeDoBottom .card{
+        flex-direction: column;
+        margin-bottom: 2rem;
+      }
+
+
+      .whatWeDoBottom .card div {
+        width: 50%;
+      }
+
+
+
+      .cardBox {
+        flex-basis: 45%;
+      }
+
+    
+    
+
+   
+    
+}
+
+
+
+
+/*=====================
+ @Media Small Screen 
+=======================*/
+@media  (max-width:568px){
+
+    html{
+        font-size: 30%;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .headerInfo {
+        width: 50rem;
+    }
+
+    .headerInfo h1 {
+        color: #fff;
+        font-size: 5rem;
+        margin: 3rem 0 7rem 0;
+        
+    }
+
+    .cardBox {
+        flex-basis: 95%;
+      }
+
+
+      .cardInfo h3 {
+        font-size: 2.2rem;
+        width: 70%;
+      }
+
+      .wrokTgo {
+        padding: 10rem 10rem;
+    }
+
+}
