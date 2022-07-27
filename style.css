@@ -278,6 +278,7 @@ nav {
     flex-basis: 32%;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
   }
 
 
